@@ -1,0 +1,14 @@
+MovieAPi
+1 - create project "movieapi"
+2 - create provider - in the provider "name.ts" httpclient and dependency injected into a constructor
+3 - create method in the provider name.ts to access api and import obsersable. check api specification for the http usage ie:key and parameter.
+4 - app.module> import HttpClientModule and in the imports
+5 - home.html > update <ion-list> <ion-item> <h2> <p> <ion-img src=
+6 - home.ts import provider.ts and inject using dependency injection
+7 - home.ts ionViewDidLoad - starts when page is loaded - call provider and get data.
+8 - data string interpolation 
+
+
+
+
+
