@@ -1,16 +1,19 @@
 <ion-header>
-  <ion-navbar>
-      My News App 
-      <ion-button>
-          <ion-icon slot="start" name="arrow-round-back"></ion-icon>
-          back
-        </ion-button>
-  </ion-navbar>
+    <ion-toolbar>
+      <ion-title> My News App</ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="openSettings()"><ion-icon  name=settings ></ion-icon></button>
+      </ion-buttons>
+          </ion-toolbar>      
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <h1>Welcome</h1>
+  <p>{{userName}}</p>
+ 
+  <button ion-button shape="round" color="primary" (click)="connectNews()"><ion-icon slot="start" name="globe"></ion-icon>News</button>
+  <ion-item *ngFor="let q of qt">
+    <p class="f1" >{{q.quote}}</p>
+    <p class="f2">{{q.author}}</p>
+  </ion-item>
 </ion-content>

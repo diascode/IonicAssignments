@@ -1,4 +1,0 @@
-News IONIC app api 
-https://newsapi.org/
-Your API key is: 87f9cdbf0e17468f9dd210c37fa9cb86
-https://newsapi.org/v2/top-headlines?country=us&apiKey=87f9cdbf0e17468f9dd210c37fa9cb86
