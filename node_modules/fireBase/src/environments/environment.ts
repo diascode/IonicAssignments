@@ -8,7 +8,7 @@ export const environment = {
     apiKey: "AIzaSyDDn3CU6kIxH-WbyHTuUODbC5-vitsF6wA",
     authDomain: "fir-76659.firebaseapp.com",
     databaseURL: "https://fir-76659.firebaseio.com",
-    projectID: "fir-76659",
+    projectId: "fir-76659",
     storageBucket: "fir-76659.appspot.com",
     messagingSenderId: "785812572777"
   }
